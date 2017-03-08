@@ -11,6 +11,58 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+  <form>
+    <div>
+      <h1>Want to go to Mars?</h1>
+      <hr>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    </div>
+    <fieldset>
+      <div class="">
+        <div class="">
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
 
+        <div class="">
+          <label for="age">Age</label>
+          <input id="age" name="age" type="number">
+        </div>
+
+        <div class="">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email">
+        </div>
+
+        <div class="">
+          <label for="fitness">Physical fitness</label>
+          <select id="fitness" name="fitness">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+
+        <div class="">
+          <label for="address">Address</label>
+          <textarea id="address" name="address rows="2" cols="80""></textarea>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Mission statement</legend>
+      <div class="">
+        <label for="mars">Why do you want to go to Mars?</label>
+        <textarea id="mars" name="mars" rows="2" cols="80"></textarea>
+      </div>
+
+      <div class="">
+        <button class="btn" type="submit">Register for the trip!</button>
+      </div>
+    </fieldset>
+
+  </form>
 </body>
 </html>
