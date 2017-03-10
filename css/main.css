@@ -1,11 +1,32 @@
 html {
+  background-color: #f2f2f2;
   font-family: "Open Sans", sans-serif;
+}
+
+form {
+  background-color: #fff;
 }
 
 h1 {
   border-bottom: 1px solid #000;
 }
 
-input, textarea {
-  width: 90%;
+
+
+label {
+
+}
+
+.btn {
+  background-color: #2d2d2d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
 }
