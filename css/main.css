@@ -6,7 +6,6 @@ h1 {
   border-bottom: 1px solid #000;
 }
 
-/*input, text-area {
-  margin: 0 2rem 0;
-  padding: 1rem;
-}*/
+input, textarea {
+  width: 90%;
+}
